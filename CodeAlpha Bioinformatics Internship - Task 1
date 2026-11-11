@@ -1,0 +1,37 @@
+# CodeAlpha Bioinformatics Internship | Project Report
+
+| Task | Prepared report |
+| :--- | :--- |
+| **Intern name** | Srija Dutta Mondal[span_3](start_span)[span_3](end_span) |
+| **College / Department** | Adamas University, Kolkata |
+
+**Task requirement:** Retrieve a sequence from NCBI or UniProt, run BLAST, and document similarity, identity and alignment score in a 2-3 page report[span_4](start_span)[span_4](end_span).
+
+> **Note:** Prepared as a structured project report. Before submitting, add your own screenshots from the live tools where indicated and verify any live-run output. No tool screenshots or numerical results are invented in this document[span_5](start_span)[span_5](end_span).
+
+---
+
+## 1. Aim
+To study a protein sequence from a public biological database and use sequence similarity searching to identify homologous proteins[span_6](start_span)[span_6](end_span). The selected example is human hemoglobin subunit beta (HBB), a globin protein involved in oxygen transport[span_7](start_span)[span_7](end_span).
+
+---
+
+## 2. Sequence source and record
+
+| Field | Record |
+| :--- | :--- |
+| **Protein** | Hemoglobin subunit beta (beta-globin)[span_8](start_span)[span_8](end_span) |
+| **Organism** | *Homo sapiens* (human)[span_9](start_span)[span_9](end_span) |
+| **UniProt accession** | [P68871](https://www.uniprot.org/uniprot/P68871)[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span) |
+| **NCBI RefSeq protein** | [NP_000509.1](https://www.ncbi.nlm.nih.gov/protein/NP_000509.1)[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span) |
+| **Sequence length** | 147 amino acids[span_14](start_span)[span_14](end_span) |
+| **Database records** | [UniProt P68871](https://www.uniprot.org/uniprot/P68871) \| [NCBI NP_000509.1](https://www.ncbi.nlm.nih.gov/protein/NP_000509.1)[span_15](start_span)[span_15](end_span) |
+
+---
+
+## 3. Protein sequence (FASTA)
+```fasta
+>sp|P68871|HBB_HUMAN Hemoglobin subunit beta OS=Homo sapiens
+MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+KEFTPPVQAAYQKVVAGVANALAHKYH
